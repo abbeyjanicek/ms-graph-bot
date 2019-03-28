@@ -1,0 +1,246 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "2598ddfe-955c-4141-937a-1df247a64004",
+        "name": "User"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "id": "58a49080-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:06-05:00",
+    "recipient": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-03-22T22:25:06.952Z",
+    "from": {
+      "id": "2598ddfe-955c-4141-937a-1df247a64004",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "http://localhost:61955"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:61955",
+    "channelId": "emulator",
+    "from": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "recipient": {
+      "id": "2598ddfe-955c-4141-937a-1df247a64004",
+      "role": "user"
+    },
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.hero",
+        "content": {
+          "title": "Hi, Im Sonya! I am here to connect you to Microsoft Graph.",
+          "images": [
+            {
+              "url": "https://botframeworksamples.blob.core.windows.net/samples/aadlogo.png"
+            }
+          ],
+          "buttons": [
+            {
+              "type": "imBack",
+              "title": "Me",
+              "value": "me"
+            },
+            {
+              "type": "imBack",
+              "title": "Users",
+              "value": "users"
+            },
+            {
+              "type": "imBack",
+              "title": "Schedule Meeting",
+              "value": "schedule meeting"
+            },
+            {
+              "type": "imBack",
+              "title": "View Token",
+              "value": "view Token"
+            },
+            {
+              "type": "imBack",
+              "title": "Help",
+              "value": "help"
+            },
+            {
+              "type": "imBack",
+              "title": "Signout",
+              "value": "signout"
+            }
+          ]
+        }
+      }
+    ],
+    "replyToId": "58a49080-4cf1-11e9-bf1a-3b193aff705d",
+    "id": "590cef40-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:07-05:00",
+    "timestamp": "2019-03-22T22:25:07.636Z",
+    "locale": ""
+  },
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "127",
+        "name": "Bot"
+      }
+    ],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "id": "58a294b0-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:06-05:00",
+    "recipient": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2019-03-22T22:25:06.938Z",
+    "from": {
+      "id": "2598ddfe-955c-4141-937a-1df247a64004",
+      "name": "User"
+    },
+    "locale": "",
+    "serviceUrl": "https://7c287643.ngrok.io"
+  },
+  {
+    "text": "schedule meeting",
+    "textFormat": "plain",
+    "type": "message",
+    "channelData": {
+      "clientActivityID": "15532935104940.pbsby9rcnam"
+    },
+    "channelId": "emulator",
+    "from": {
+      "id": "r_oir8vp20ba",
+      "role": "user"
+    },
+    "locale": "",
+    "timestamp": "2019-03-22T22:25:10.504Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "id": "5ac28e80-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:10-05:00",
+    "recipient": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://7c287643.ngrok.io"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "https://7c287643.ngrok.io",
+    "channelId": "emulator",
+    "from": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "recipient": {
+      "id": "2598ddfe-955c-4141-937a-1df247a64004",
+      "role": "user"
+    },
+    "inputHint": "expectingInput",
+    "attachments": [
+      {
+        "contentType": "application/vnd.microsoft.card.oauth",
+        "content": {
+          "buttons": [
+            {
+              "type": "openUrl",
+              "title": "Login",
+              "value": "oauthlink://https://token.botframework.com/api/oauth/signin?signin=921d46120fa36d40c7ebe945f9bbf857a09ec3f9db&&&585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+            }
+          ],
+          "connectionName": "ms-graph-bot",
+          "text": "Please login"
+        }
+      }
+    ],
+    "replyToId": "5ac28e80-4cf1-11e9-bf1a-3b193aff705d",
+    "id": "5b3637e0-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:11-05:00",
+    "timestamp": "2019-03-22T22:25:11.262Z",
+    "locale": ""
+  },
+  {
+    "text": "566792",
+    "textFormat": "plain",
+    "type": "message",
+    "channelData": {
+      "clientActivityID": "15532935302590.fkat5s4sxk"
+    },
+    "channelId": "emulator",
+    "from": {
+      "id": "r_oir8vp20ba",
+      "role": "user"
+    },
+    "locale": "",
+    "timestamp": "2019-03-22T22:25:30.264Z",
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "id": "6689b180-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:30-05:00",
+    "recipient": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "https://7c287643.ngrok.io"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "https://7c287643.ngrok.io",
+    "channelId": "emulator",
+    "from": {
+      "id": "127",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "585fbf50-4cf1-11e9-8056-9d0788dc68e0|livechat"
+    },
+    "recipient": {
+      "id": "2598ddfe-955c-4141-937a-1df247a64004",
+      "role": "user"
+    },
+    "text": "Oops. Something went wrong!",
+    "inputHint": "acceptingInput",
+    "replyToId": "6689b180-4cf1-11e9-bf1a-3b193aff705d",
+    "id": "66ccfc10-4cf1-11e9-bf1a-3b193aff705d",
+    "localTimestamp": "2019-03-22T17:25:30-05:00",
+    "timestamp": "2019-03-22T22:25:30.705Z",
+    "locale": ""
+  }
+]

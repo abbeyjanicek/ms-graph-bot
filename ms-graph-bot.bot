@@ -1,0 +1,15 @@
+{
+    "name": "ms-graph-bot",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "development",
+            "endpoint": "http://localhost:3978/api/messages",
+            "appId": "44f8e072-2a74-48e2-a5fe-b7023e76328a",
+            "appPassword": "mpOTA4*)!_ztnczGNGX0761",
+            "id": "127"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}
